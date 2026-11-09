@@ -81,19 +81,19 @@
     letter-spacing: -0.005em;
     white-space: nowrap;
   }
-  nav.links { display: flex; gap: 22px; flex-wrap: wrap; }
+  nav.links { display: flex; gap: 16px; flex-wrap: wrap; }
   nav.links a {
     font-family: "Source Sans 3", sans-serif;
     font-weight: 400;
     font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
     color: var(--ink-soft);
     text-decoration: none;
     white-space: nowrap;
   }
   nav.links a:hover { color: var(--link); }
-  nav.links a.cv-link { color: var(--link); }
+  nav.links a.contact-link { color: var(--link); }
   @media (max-width: 640px) { nav.links { display: none; } }
 
   /* page */
@@ -129,7 +129,6 @@
   }
   .intro p { margin: 0 0 4px; }
   .intro { margin-bottom: 28px; }
-  .intro .contact { margin: 12px 0 0; }
   @media (max-width: 640px) {
     .intro { flex-direction: column-reverse; align-items: center; }
     .intro img { width: 220px; }
@@ -198,7 +197,8 @@
       <a href="#experience">Experience</a>
       <a href="#publications">Publications</a>
       <a href="#skills">Skills</a>
-      <a class="cv-link" href="Franco_CV_EN.pdf">CV ↓</a>
+      <a href="Franco_CV_EN.pdf">CV ↓</a>
+      <a class="contact-link" href="#contact">Contact me</a>
     </nav>
   </div>
 </header>
@@ -211,7 +211,6 @@
       <h1>Javier Franco Pinto</h1>
       <p>M.Sc. candidate in Economics (research track)</p>
       <p>Instituto de Economía, Facultad de Ciencias Económicas y Administración, Universidad de la República, Montevideo, Uruguay</p>
-      <p class="contact"><a href="mailto:javierfrancopinto@gmail.com">javierfrancopinto@gmail.com</a> · <a href="Franco_CV_EN.pdf">CV</a> · <a href="https://www.linkedin.com/in/javier-franco-pinto/" target="_blank" rel="noopener">LinkedIn</a></p>
     </div>
   </div>
 
