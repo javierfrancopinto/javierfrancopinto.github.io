@@ -183,6 +183,25 @@
   .cv-list > li { margin-bottom: 14px; }
   .cv-list ul { margin-top: 4px; }
 
+  .downloads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 44px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 1px solid var(--link);
+    color: var(--link);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+  }
+  .btn:hover, .btn:focus-visible { background: var(--link); color: #ffffff; }
+  .downloads + .contact-box { margin-top: 20px; }
+
   .contact-box {
     padding: 28px 32px;
     margin-top: 48px;
@@ -294,10 +313,15 @@
   <p><em>Languages:</em> Spanish (native), English (C2, Cambridge Certificate of Proficiency in English, 2020), Portuguese (intermediate).</p>
   <p><em>Software:</em> R, Stata, EViews, MATLAB, Octave, LaTeX, OxMetrics, Demetra, Bloomberg.</p>
 
+  <div class="downloads">
+    <a class="btn" href="Franco_CV_EN.pdf" download>Download CV (PDF)</a>
+    <a class="btn" href="code_sample_JavierFranco.zip" download>Download code sample (Stata, zip)</a>
+  </div>
+
   <div class="contact-box">
     <h2 id="contact">Contact</h2>
     <p>If you'd like to talk about my research, email is the best way to reach me.</p>
-    <p><a href="mailto:javierfrancopinto@gmail.com">javierfrancopinto@gmail.com</a> · <a href="https://www.linkedin.com/in/javier-franco-pinto/" target="_blank" rel="noopener">LinkedIn</a> · <a href="Franco_CV_EN.pdf">CV (PDF)</a></p>
+    <p><a href="mailto:javierfrancopinto@gmail.com">javierfrancopinto@gmail.com</a> · <a href="https://www.linkedin.com/in/javier-franco-pinto/" target="_blank" rel="noopener">LinkedIn</a></p>
   </div>
 
 </main>
